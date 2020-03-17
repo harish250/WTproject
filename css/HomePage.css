@@ -1,0 +1,84 @@
+*{
+margin:0;
+padding:2px;
+position: relative;
+background-color: #a9a9a9;
+}
+
+.block  {
+    
+    display: block;
+    width: 70%;
+    background-color:#FF3B3F;
+    color: white ;
+    font-family: Roboto;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.block:hover {
+background-color: #CAEBF2;
+color: black;
+}
+div.header{
+    
+    height: 17%;
+    width:100%;
+}
+div.head{
+    text-align: center;    /*   login */
+    padding: 2px 5px;
+    right:0;
+    width:20%;
+    height:25%;
+    position: fixed;
+    overflow-x: hidden;
+    
+    
+}
+div.design
+{
+	width:99%;
+	height:80%;		
+    right:5;
+    background-image: url('HomePageCarLogo.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+div.structure{
+    color:black;
+    text-align: center;
+    width:50%;
+    height:70%;
+    background-color:transparent;
+}
+div.structure h3, div.structure pre{
+    background-color: transparent;
+
+}
+div.structure a{
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding:8px 40px;
+    background-color: transparent;
+}
+div.structure a:hover{
+    color:#fff;
+    background-color: red;
+}
+div.structure hr{
+   padding: 0;
+   height:2px;
+   border:none;
+   color:red;
+   background-color:red;
+   width:10%;
+   text-align:center;
+   margin:10 auto;
+}
+			

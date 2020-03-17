@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/user.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <a href="HomePage.html"><img src="img/logo.png" id="logo"></a>
+    <script src="js/uservalidator.js"></script>
+        </head>
+    <body>
+        <div class="user-container">
+        <h1 style="font-family: Quicksand;font-size: 40px;">Signup as User</h1>
+        <form action="reguser.php" method="POST" onsubmit=" return checkPassword(this)"> 
+             
+            <input type="text" id="name" name="name" required placeholder="Full Name">  
+             
+             
+            
+            <input type="text" id="username" name="username" required placeholder="User Name"> 
+            
+            
+            <input type="text" id="email" name="email" required placeholder="Email"> 
+            
+            
+            <input type="password" id="pass" name="pass" required placeholder="Password">
+             <input type="password" id="repass" name="repass" required placeholder="Re Enter Password">
+        
+            
+             <input type = "number" id="age" name="age" min="15" required placeholder="Age">
+            <div class="address-container">
+                <input type="text" id="address" name="address" required placeholder="Address"> 
+                <input type="text" id="pincode" name="pincode" required placeholder="Pincode">
+                <a  onclick="getLocation();" id="cur" name="current">
+                    <img src="location.png" alt="map">  </a>
+            </div>
+            
+            
+        
+            <input type="tel" id="phnum" name="phnum" required placeholder="Phone Number"> 
+            
+            <input type="submit" name="submit" id="submit"value="Submit">
+           
+        </form>
+
+    </div>
+    </body>
+</html>

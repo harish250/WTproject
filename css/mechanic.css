@@ -1,0 +1,154 @@
+.mechanic
+{
+    margin:  0 auto;
+    text-align: center;
+    
+}
+body
+{
+    background-color: #EFEFEF;
+}
+#logo
+{
+    width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  margin-left: 625px;
+}
+#name
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#username
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#email
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#age
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#cur img
+{
+  height: 40px;
+  width:55px;
+  margin-right:40px ;
+   margin-bottom: 15px;
+}
+#pass
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#repass
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+.address-container #address
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#mechaddress
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#phnum
+{
+    display: block;
+  margin: 0 auto;
+   padding-left: 20px;
+   border-radius: 5px;
+    width: 500px;
+   height: 40px;
+   font-size: 30px;
+}
+#submit
+{
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto';
+    background-color: #FF3B3F;
+    color: black ;
+    font-size: 20px;
+}
+#submit:hover
+{
+    background-color:#CAEBF2;
+}
+.address-container
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+  width: 1000px;
+}
+ #cur >img
+{
+  margin-right: 600px;
+  margin-bottom: 15px;
+  display: flex;
+}
+#pincode
+{
+  display: flex;
+  
+   padding-left: 20px;
+   border-radius: 5px;
+   margin-left: 20px;
+    width: 200px;
+    
+   height: 40px;
+   font-size: 30px;
+}

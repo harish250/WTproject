@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/mechanic.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <a href="HomePage.html"><img src="logo.png" id="logo"></a>
+    <script src="js/mechanicvalidator.js"></script>
+    </head>
+    
+    <body>   
+        <div class="mechanic">
+            <h1 style="font-family: Quicksand;font-size: 40px;color: black;">Signup as Mechanic</h1>
+        <form action="regmech.php" method="POST" onsubmit=" return checkPassword(this)"> 
+
+            <br>
+            <input type="text" id="name" name="name" required placeholder="Full name"> 
+            
+            
+            <br>
+            <input type="text" id="username" name="username" required placeholder="User name"> 
+            <br>
+    
+            <input type="text" id="email" name="email" required placeholder="Email"> 
+            <br>
+            
+            
+            <input type="number" id="age" name="age" required placeholder="Age">
+            <br>
+            <input type="password" id="pass" name="pass" required placeholder="Password"> 
+            <br>
+             <input type="password" id="repass" name="repass" required placeholder="Re Enter Password">
+             <br>
+             <div class="address-container">
+                 <input type="text" id="address" name="address" required placeholder="Address"> 
+                 <input type="text" id="pincode" name="pincode" required placeholder="Pincode">
+            <a  onclick="getLocation();" id="cur" name="current">
+                <img src="img/location.png" alt="map">  </a>
+            
+            </div>
+            <input type="text" id="mechaddress" name="mechaddress" required placeholder="Mechanic Address">
+            <br>
+            
+            <input type="tel" id="phnum" name="phnum" required placeholder="Phone Number"> 
+            <br>
+            
+            <input type="submit" name="submit" value="Submit" id="submit" >
+        
+        </form>
+    </div>
+    </body>
+</html>
